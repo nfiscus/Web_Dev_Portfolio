@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+/*  Author: Nathan Fiscus
+    Date: 2/27/2019
+*/
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: url(../images/qbkls.png);
+    font-family: "Varela Round";
+}
+
+#header {
+    height: 100px;
+    width: 100%;
+    background-color: #E0E0E0;
+    position: fixed;
+    z-index: 1;
+}
+
+#header_text {
+    text-align: center;
+    color: #2F9852;
+    font-weight: bold;
+    font-size: 36px;
+    padding-left: 50px;
+    letter-spacing: 0.2em;
+}
+
+#avatar {
+    z-index: 1000;
+    height: 115px;
+    width: 115px;
+    display: inline-block;
+    position: fixed;
+    top: 2px;
+    left: 30px;
+    filter: grayscale(100%);
+    border-radius: 45px;
+}
+
+a:link, a:visited {
+    color: #fff;
+}
+
+#content {
+    height: 1250px;
+    width: 100%;
+    margin: 0;
+}
+
+.rows {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-around;
+    padding-top: 150px;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.row_01 {
+    height: 250px;
+    width: 29%;
+    margin: 10px;
+    align-content: center;
+    color: #fff;
+    background-color: #2F9852;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.row_01 img {
+    height: 150px;
+    margin-top: 10px;
+    width: 70%;
+}
+
+#desc {
+    font-size: 1vw;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+
+#linksTable {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    color: #000;
+}
+
+th {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+td {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#bottom_row {
+    border-right: 1px solid #000;
+}
+
+#linksTable a:link, #linksTable a:visited {
+    color: #000;
+}
+
+tr.even {
+    background-color: #c0e0cb;
+}
+
+tr.odd {
+    background-color: #eaf4ed;
+}
+
+#help_box {
+    height: 50px;
+    width: 50px;
+    font-size: 14px;
+    padding-left: 5px;
+    color: #fff;
+    background-color: #2F9852;
+    position: fixed;
+    right: 0px;
+    bottom: 15%;
+}
+
+#footer {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 100%;
+    color: #2F9852;
+    background-color: #E0E0E0;
+    position: relative;
+    top: 150px;
+}
